@@ -180,7 +180,7 @@ void Tiles::makeTiles()
 	}
 	{
 		/* 63 degree high DL, DR, UL, UR */
-		Tile   
+		Tile t;
 		addTile(Tile::DL_63_1, t);
 		addTile(Tile::DR_63_1, Tile(t, Tile::H_FLIP));
 		addTile(Tile::UL_63_1, Tile(t, Tile::V_FLIP));
